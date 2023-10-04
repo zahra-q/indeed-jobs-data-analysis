@@ -14,11 +14,11 @@ Created a python web scraper to scrape Indeed for job details and stored it in M
 ## Data Cleaning
 
 The data extracted from Indeed was dirty and needed to be cleaned. The tasks were performed in SQL and power BI and included:
-1. Removing null values
+### 1. Removing null values
   - Used power bi to remove rows where column values were Null.
-2. Dropping irrelevant columns
+### 2. Dropping irrelevant columns
   - In this case, the "job details" column only had null values, so we drop it using Power BI.
-3. Removing duplicate rows
+### 3. Removing duplicate rows
   - First we check for duplicates:
 
     ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/10f8dad2-43a8-49ab-b01e-89ee85960cab)
@@ -27,7 +27,7 @@ The data extracted from Indeed was dirty and needed to be cleaned. The tasks wer
     ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/28552ebd-dbdb-4d98-b006-9bc73536b378)
 
 
-4. Formatting the columns values
+### 4. Formatting the columns values
 
 The "salary" column consisted of values in different forms:
 - it had ranges, e.g. $24,000-$30,000
@@ -42,7 +42,7 @@ We needed to format this data by bringing it on the same scale e.g. yearly basis
 ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/ad61a666-749f-417b-b3d4-b8dbc49a2493)
 
 
-5. Converting variable data types
+### 5. Converting variable data types
 
 As shown above, we converted salary column type from text to float. We also needed to convert the rating column data type to float: 
 ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/a035dee2-82c5-4b95-aa6d-3d4dd339f911)
