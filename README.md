@@ -27,7 +27,7 @@ The data extracted from Indeed was dirty and needed to be cleaned. The tasks wer
     ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/28552ebd-dbdb-4d98-b006-9bc73536b378)
 
 
-5. Formatting the columns values
+4. Formatting the columns values
 
 The "salary" column consisted of values in different forms:
 - it had ranges, e.g. $24,000-$30,000
@@ -42,7 +42,7 @@ We needed to format this data by bringing it on the same scale e.g. yearly basis
 ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/ad61a666-749f-417b-b3d4-b8dbc49a2493)
 
 
-6. Converting variable data types
+5. Converting variable data types
 
 As shown above, we converted salary column type from text to float. We also needed to convert the rating column data type to float: 
 ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/a035dee2-82c5-4b95-aa6d-3d4dd339f911)
