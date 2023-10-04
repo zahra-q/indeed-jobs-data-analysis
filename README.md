@@ -20,8 +20,10 @@ The data extracted from Indeed was dirty and needed to be cleaned. The tasks wer
   - In this case, the "job details" column only had null values, so we drop it using Power BI.
 3. Removing duplicate rows
   - First we check for duplicates:
+
     ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/10f8dad2-43a8-49ab-b01e-89ee85960cab)
   - Remove them:
+
     ![image](https://github.com/zahra-q/indeed-jobs-data-analysis/assets/58932323/28552ebd-dbdb-4d98-b006-9bc73536b378)
 
 
